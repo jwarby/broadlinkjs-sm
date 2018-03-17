@@ -33,6 +33,10 @@ Broadlink.prototype.genDevice = function(devtype, host, mac) {
         dev = new device(host, mac);
         dev.sp2();
         return dev;
+    } else if (devtype == 0x947a) { // SP3S
+        dev = new device(host, mac);
+        dev.sp2();
+        return dev;
     } else if (devtype == 0x2728) { // SPMini2
         dev = new device(host, mac);
         dev.sp2();
