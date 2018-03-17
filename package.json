@@ -1,6 +1,6 @@
 {
-    "name": "broadlinkjs-sm",
-    "version": "0.1.4",
+    "name": "broadlinkjs-sm2",
+    "version": "0.1.5",
     "description": "A Node.JS library for controlling Broadlink SP & MP devices",
     "main": "index.js",
     "types": "index.d.ts",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/smka/broadlinkjs-sm.git"
+        "url": "git+https://github.com/Yashin32/broadlinkjs-sm.git"
     },
     "keywords": [
         "Broadlink",
@@ -18,12 +18,12 @@
         "control",
         "sp"
     ],
-    "author": "smka",
+    "author": "Yashin32",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/smka/broadlinkjs-sm/issues"
+        "url": "https://github.com/Yashin32/broadlinkjs-sm/issues"
     },
-    "homepage": "https://github.com/smka/broadlinkjs-sm#readme",
+    "homepage": "https://github.com/Yashin32/broadlinkjs-sm#readme",
     "dependencies": {
         "@types/node": "^7.0.5"
     },
