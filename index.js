@@ -198,10 +198,10 @@ Broadlink.prototype.discover = function(local_ip_address) {
             this.devices = {};
         }
 
-        if (!this.devices[mac]) {
+        if (!this.devices[mac.toString("hex")]) {
             var dev = this.genDevice(devtype, host, mac);
             if (dev) {
-                this.devices[mac] = dev;
+                this.devices[mac.toString("hex")] = dev;
                 dev.on("deviceReady", () => { this.emit("deviceReady", dev); });
                 dev.auth();
             }
